@@ -2,6 +2,7 @@ let myLeads = [];
 const inputEl = document.getElementById("input-el");
 const inputBtn = document.getElementById("input-btn");
 let ulEl = document.getElementById("ul-el");
+
 console.log(ulEl);
 inputBtn.addEventListener("click", function () {
   myLeads.push(inputEl.value);
